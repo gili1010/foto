@@ -7,11 +7,36 @@ body{
 
 
 .fondo-header{
-    background-image: url("../image/Inicio.jpg");
+    background-image: url("../image/inicio1.webp");
     width: 100%;
     height: 100vh;
-
     background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.fondo-sobreMi{
+    background-image: url("../image/sobreMi.webp");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.fondo-portfolio{
+    background-image: url("../image/portfolio.webp");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.logo{
+    width: 200px;
+    height: 120px;
+    margin-left: 60px;
     background-size: cover;
     object-fit: cover;
 }
@@ -31,6 +56,15 @@ body{
         color: rgb(209, 8, 8);
         font-size: 16px;
         padding-bottom: 0;          
+}
+
+.links{
+    margin-right: 15px;
+    border-bottom: 1px solid #f8a800;
+}
+
+.pr5{
+    padding-right: 40px !important;
 }
 
 .titulo-header{
